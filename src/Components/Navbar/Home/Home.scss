@@ -1,0 +1,56 @@
+.my-job-parent{
+    max-width: 1400px ;
+    width: 100%;
+    margin: auto;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    gap: 40px;
+    
+    .Title-my-job{
+        border: 1px solid #ddd;
+        padding: 20px;
+        h1{
+            font-size: 38px;
+            color: #5688F4;
+        }
+        p{
+            margin-top: 10px;
+            color: rgb(255, 0, 0);
+        }
+    }
+    .cata{
+        display: grid;
+        width: 40%;
+        gap: 40px;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+    }
+    .description-section{
+        border: 1px solid #ddd;
+        margin: 40px 0;
+        padding:20px 20px;
+        .description-title{
+            color: gray;
+        }
+        .description-detail{
+            color: black;
+            width: 80%;
+            margin: 10px 0;
+        }
+    }
+    .budget-parent{
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+        width: 40%;
+       
+    }
+    button{
+padding: 10px 20px;
+border: none;
+font-size: 18px;
+color: white;
+background: green;
+        border-radius: 40px;
+    }
+}
